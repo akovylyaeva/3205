@@ -1,0 +1,45 @@
+.job-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-details__title {
+  margin-bottom: 12px;
+}
+
+.job-details__empty {
+  color: #777;
+  padding: 12px;
+}
+
+.job-details__field {
+  margin-bottom: 6px;
+}
+
+.job-details__progress {
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.job-details__cancel-btn {
+  margin-top: 12px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.job-details__divider {
+  margin: 12px 0;
+}
+
+.job-details__url-item {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.job-details__url {
+  font-weight: 500;
+}
+
+.job-details__error {
+  color: #c00;
+}

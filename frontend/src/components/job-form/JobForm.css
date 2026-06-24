@@ -1,0 +1,30 @@
+.job-form__title {
+  margin-bottom: 12px;
+}
+
+.job-form__textarea {
+  width: 100%;
+  min-height: 160px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.job-form__button {
+  width: fit-content;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #333;
+  background: grey;
+  transition: background 0.15s ease;
+}
+
+.job-form__button:hover {
+  background: darkgray;
+}
+
+.job-form__button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

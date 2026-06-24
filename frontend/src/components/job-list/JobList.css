@@ -1,0 +1,23 @@
+.job-list__title {
+  margin-bottom: 12px;
+}
+
+.job-list__item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.job-list__item:hover {
+  background: #f5f5f5;
+}
+
+.job-list__item-id {
+  font-weight: bold;
+}
+
+.job-list__item-status {
+  color: #444;
+}
